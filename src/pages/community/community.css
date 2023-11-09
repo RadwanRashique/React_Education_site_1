@@ -1,0 +1,28 @@
+.start-wrapper{
+    display:flex;
+    justify-content:space-between;
+    column-gap: 3rem;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.start-img , .start-content{
+    width: 50%;
+}
+.start-img img{
+    width:100%;
+    border-radius: 5%;
+   
+}
+.start-content h2{
+    font-size: 2.5rem;
+    margin: 2px;
+    margin-bottom: 20px;
+}
+
+.start-content p{
+    color: rgb(37, 37, 152);
+    font-size: 1.1rem;
+    line-height: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 50px;
+}

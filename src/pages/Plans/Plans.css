@@ -1,0 +1,35 @@
+.pricing_top{
+    text-align: center;
+}
+.pricing_top h2{
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+.pricing_top p{
+    font-size:1.1rem ;
+    color: steelblue;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+.pricing_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 2rem;
+
+}
+.pricing_item:hover{
+    transform: translateY(-10);
+    box-shadow:0px,0px,20px, rgb(0,0,0,0.2)
+}
+.pricing_item{
+    box-shadow: rgb(0,0,0,0.2);
+    border-radius:5px;
+    width:33%;
+    background-color:#ffff;
+}
+.pricing_card_top{
+    padding:30px;
+    border-bottom:1px solid #d3cef2;
+    text-align:center;
+}

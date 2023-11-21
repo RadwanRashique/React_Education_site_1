@@ -51,7 +51,7 @@ function Plans(){
 <div className="pricing_wrapper">
 {pricingData.map((pricingItem,index)=>(
 <div key={index} className="pricing_item">
-    <div className="pricing_card_top" style={{background:pricingData.color}}>
+    <div className="pricing_card_top" style={{background:pricingItem.color}}>
         <h2 className="section_title">{pricingItem.title}</h2>
         <h2 className="pricing_section_title">
             {pricingItem.price}
@@ -65,8 +65,10 @@ function Plans(){
 {feature}
     </li>
     ))}
-
-    <button className="register-btn">Join</button>
+  <div className="button-container">
+  <button className="register-btn">Join</button>
+  </div>
+  
 </ul>
 </div>
 </div>

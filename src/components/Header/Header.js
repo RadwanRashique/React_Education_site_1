@@ -1,21 +1,22 @@
 import React from 'react'
 import logo  from '../../assets/logo.png'
 import './Header.css'
-
+import { Link } from 'react-router-dom'
 export default function Header() {
 // navigation item list
 const navTitles=[{
   path: '/',display:'Home'
 },
 {
-  path: '/',display:'Services'
+  path: '/services',display:'Services'
 },
 {
-  path: '/',display:'Courses'
+  path: '/courses',display:'Courses'
 },
 {
-  path: '/',display:'About Us'
+  path: '/about',display:'About Us'
 }
+
 ]
 
 
@@ -38,7 +39,8 @@ const navTitles=[{
   {
     navTitles.map((item)=>
  <li className='nav_item'>
-  {item.display}
+  <Link to={item.path}> {item.display}</Link>
+ 
  </li>
  )
   }

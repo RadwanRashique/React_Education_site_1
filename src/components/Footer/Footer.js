@@ -39,10 +39,10 @@ import Image from  '../../assets/footer.png'
     <li
     
     >
-       <a href=''>  About Us</a> 
+       <a href='/about'>  About Us</a> 
      </li>
     <li>
-    <a href=''>   Contact Us</a> 
+    <a href='/contact'>   Contact Us</a> 
      </li>
     <li>
     <a href=''>  Support Us</a> 

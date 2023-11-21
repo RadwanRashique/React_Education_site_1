@@ -14,12 +14,17 @@ import './ContactUs.css'
  <input id='name' name='name' type='text' required/>
     </div>
     <div className='form-group'>
-    <label htmlFor='email'>Name:</label>
+    <label htmlFor='email'>Email:</label>
  <input id='email' name='email' type='email' required/>
 </div>
 <div className='form-group'>
+    <label htmlFor='message'>Message:</label>
+    <textarea id='message' name='message' rows='5' required>
+
+    </textarea>
 
 </div>
+<button type='submit' className='submit-btn'>Submit</button>
 
 </form>
     </div>

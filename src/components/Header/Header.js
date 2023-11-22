@@ -1,5 +1,5 @@
 import React from 'react'
-import logo  from '../../assets/logo.png'
+import R  from '../../assets/R.jpeg'
 import './Header.css'
 import { Link } from 'react-router-dom'
 export default function Header() {
@@ -28,9 +28,9 @@ const navTitles=[{
   <div className='nav_container'>
 <div className='logo'>
 <div className='logo-img'>
-  <img src={logo} alt='' />
+  <img src={R} alt='' />
 </div>
-<h1>RidusApp</h1>
+<h1>idhusApp</h1>
 
 
 </div>

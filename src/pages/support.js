@@ -1,16 +1,18 @@
 import React from 'react'
 
+
 import './support.css'
 
 function support(){
 
     return (
-        <div>
-            <div>
+        <div className='container'>
+            <div className='support-us-container'>
                 <h1>
-   support
+   Support  Us
                 </h1>
-                <p></p>
+                <p>You are alwase welcome. </p>
+                <a href='radwangoinspire916@gmail.com'>radwangoinspire916@gmail.com</a>
             </div>
 
         </div>

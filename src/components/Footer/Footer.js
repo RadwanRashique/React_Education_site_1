@@ -4,6 +4,10 @@ import Image from  '../../assets/footer.png'
 import { Link } from 'react-router-dom'
 
  function Footer() {
+  const handleClick =()=>{
+    window.scrollTo(0,0)
+
+  }
   return (
   <footer className='footer'>
 <div className='container'>
@@ -22,17 +26,18 @@ import { Link } from 'react-router-dom'
   <ul className='footer_links'>
     <li>
      
-      <Link to='/courses' >Our Programs</Link>
+      <Link to='/courses' onClick={handleClick}>Our Programs</Link>
     
       
       </li>
     <li>
    
-    <Link to='services' >Our Plan</Link>
+    <Link to='services' onClick={handleClick}>Our Plan</Link>
       
       </li>
     <li>
-    <a href=''>  Become a member</a> 
+    
+    <Link to='https://t.me/brocampStudentConnect'> Become a member</Link>
      r</li>
   </ul>
 </div>
@@ -42,14 +47,14 @@ import { Link } from 'react-router-dom'
     <li
     
     >
-       <Link to='/about'>  About Us</Link>
+       <Link to='/about' onClick={handleClick}>  About Us</Link>
      </li>
     <li>
    
-    <Link to='/contact'>Contact Us</Link>
+    <Link to='/contact' onClick={handleClick}>Contact Us</Link>
      </li>
     <li>
-    <a href=''>  Support Us</a> 
+    <Link to='/support' onClick={handleClick}>SupportUs</Link>
      </li>
   </ul>
 </div>

@@ -1,0 +1,16 @@
+.support-us-container{
+    max-width: 880px;
+    margin:0 auto;
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.support-us-container{
+    font-size: 32px;
+    margin-top: 20px;
+}
+.support-us-container p{
+    font-size: 18px;
+    margin-bottom: 10px;
+}

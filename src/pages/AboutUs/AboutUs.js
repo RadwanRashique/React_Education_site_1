@@ -22,7 +22,7 @@ function AboutUs(){
 About Us
     </h1>
     <p>
-I have dash
+we have dash......
     </p>
 </div>
     </div>

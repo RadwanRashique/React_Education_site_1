@@ -7,7 +7,7 @@ import './ContactUs.css'
 <div className='container'>
     <div className='contact-us-container'>
         <h1>Contact Us</h1>
-        <p>We are really axcited to get your grate valuable comment for our growth by changing the life of manys</p>
+        <p>We are really axcited to get your grate valuable comment for our growth which changes the life of manys</p>
 <form className='contact-form'>
     <div className='form-group'>
  <label htmlFor='name'>Name:</label>

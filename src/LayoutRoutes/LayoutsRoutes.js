@@ -7,6 +7,7 @@ import Plans from '../pages/Plans/Plans'
 import Courses from '../pages/courses/courses'
 import AboutUs from '../pages/AboutUs/AboutUs'
 import ContactUs from '../pages/Contact/ContactUs'
+import Support from '../pages/support'
 function LayoutRoutes(){
     return(
        <Router>
@@ -17,6 +18,7 @@ function LayoutRoutes(){
        <Route path='/courses' element={<Courses/>}></Route>
        <Route path='/about' element={<AboutUs/>}></Route>
        <Route path='/contact' element={<ContactUs/>}></Route>
+       <Route path='/support'    element={<Support/>}></Route>
         </Routes>
       <Footer/>
        </Router>
